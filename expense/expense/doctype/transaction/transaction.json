@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-11-08 01:08:49.434606",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_type",
+  "category",
+  "column_break_spib",
+  "posting_date",
+  "amount",
+  "description_section",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Transaction Type",
+   "options": "Transaction Type"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Category"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "description_section",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "column_break_spib",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-08 01:38:32.435698",
+ "modified_by": "Administrator",
+ "module": "Expense",
+ "name": "Transaction",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
