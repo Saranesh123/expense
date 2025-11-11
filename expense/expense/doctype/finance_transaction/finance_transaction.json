@@ -84,14 +84,15 @@
   {
    "fieldname": "outstanding",
    "fieldtype": "Float",
-   "label": "Outstanding"
+   "label": "Outstanding",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-10 01:40:06.329032",
+ "modified": "2025-11-11 12:15:22.440992",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "Finance Transaction",
