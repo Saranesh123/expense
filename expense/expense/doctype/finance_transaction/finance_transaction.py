@@ -20,9 +20,12 @@ class FinanceTransaction(Document):
 					}
 				)
 				
-		self.total_paid_amount = 0
+		self.total_paid_amount = self.to_be_paid = 0
 		for transaction in self.transactions:
 			if transaction.paid_date: 
 				self.total_paid_amount += transaction.amount
+    
+				if not transaction.paid:
+					self.to_be_paid += transaction.amount
 			 
 		self.outstanding = self.amount_to_be_collected - self.total_paid_amount

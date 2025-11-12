@@ -9,6 +9,7 @@
   "customer",
   "actual_amount",
   "total_paid_amount",
+  "to_be_paid",
   "amended_from",
   "column_break_rmce",
   "posting_date",
@@ -86,13 +87,19 @@
    "fieldtype": "Float",
    "label": "Outstanding",
    "read_only": 1
+  },
+  {
+   "fieldname": "to_be_paid",
+   "fieldtype": "Float",
+   "label": "To Be Paid",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-11 12:15:22.440992",
+ "modified": "2025-11-12 11:26:39.496476",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "Finance Transaction",

@@ -5,7 +5,7 @@
    "label": "Category Wise"
   }
  ],
- "content": "[{\"id\":\"yWXOmBMMQI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Income\",\"col\":3}},{\"id\":\"WVxgemsSIG\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Investment\",\"col\":3}},{\"id\":\"V3lOWM9S1H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expense\",\"col\":3}},{\"id\":\"HdyO5YphPa\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"In Hand\",\"col\":3}},{\"id\":\"rDTacTKeBG\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Outstanding\",\"col\":4}},{\"id\":\"VvNC2CKWIn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Outstanding Profit\",\"col\":4}},{\"id\":\"Nau7g5DfVM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit\",\"col\":4}},{\"id\":\"Blx1AqQVMd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"PXaoSc4MB2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction\",\"col\":3}},{\"id\":\"q8ssaLCwf-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Finance Transaction\",\"col\":3}},{\"id\":\"Zx-qZANvGm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction Type\",\"col\":3}},{\"id\":\"DPdHDNFfBD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Category\",\"col\":3}},{\"id\":\"qhewxOuGL0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Es2hcEDMeQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Category Wise\",\"col\":12}}]",
+ "content": "[{\"id\":\"yWXOmBMMQI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Income\",\"col\":3}},{\"id\":\"WVxgemsSIG\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Investment\",\"col\":3}},{\"id\":\"V3lOWM9S1H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expense\",\"col\":3}},{\"id\":\"HdyO5YphPa\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"In Hand\",\"col\":3}},{\"id\":\"u1MvYSJzkL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"To Be Paid\",\"col\":3}},{\"id\":\"rDTacTKeBG\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Outstanding\",\"col\":3}},{\"id\":\"VvNC2CKWIn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Outstanding Profit\",\"col\":3}},{\"id\":\"Nau7g5DfVM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit\",\"col\":3}},{\"id\":\"Blx1AqQVMd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"PXaoSc4MB2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction\",\"col\":3}},{\"id\":\"q8ssaLCwf-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Finance Transaction\",\"col\":3}},{\"id\":\"Zx-qZANvGm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction Type\",\"col\":3}},{\"id\":\"DPdHDNFfBD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Category\",\"col\":3}},{\"id\":\"qhewxOuGL0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Es2hcEDMeQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Category Wise\",\"col\":12}}]",
  "creation": "2025-11-08 01:25:03.396113",
  "custom_blocks": [],
  "docstatus": 0,
@@ -18,7 +18,7 @@
  "is_hidden": 0,
  "label": "Tracker",
  "links": [],
- "modified": "2025-11-11 12:35:59.923177",
+ "modified": "2025-11-12 11:33:50.122778",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "Tracker",
@@ -30,6 +30,10 @@
   {
    "label": "In Hand",
    "number_card_name": "In Hand"
+  },
+  {
+   "label": "To Be Paid",
+   "number_card_name": "To Be Paid"
   },
   {
    "label": "Outstanding",
