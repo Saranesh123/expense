@@ -14,14 +14,14 @@
  "is_public": 0,
  "is_standard": 1,
  "label": "Profit",
- "modified": "2025-11-10 01:46:02.145389",
+ "modified": "2025-11-13 12:03:53.209602",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "Profit",
  "owner": "Administrator",
  "parent_document_type": "",
  "report_function": "Sum",
- "show_percentage_stats": 1,
+ "show_percentage_stats": 0,
  "stats_time_interval": "Daily",
  "type": "Document Type"
 }

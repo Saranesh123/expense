@@ -11,13 +11,13 @@
  "is_standard": 1,
  "label": "In Hand",
  "method": "expense.expense.doctype.transaction.transaction.calculate_in_hand_money",
- "modified": "2025-11-11 12:40:28.901162",
+ "modified": "2025-11-13 12:03:53.238118",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "In Hand",
  "owner": "Administrator",
  "report_function": "Sum",
- "show_percentage_stats": 1,
+ "show_percentage_stats": 0,
  "stats_time_interval": "Daily",
  "type": "Custom"
 }

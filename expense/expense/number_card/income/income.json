@@ -13,14 +13,14 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Income",
- "modified": "2025-11-08 01:29:40.654648",
+ "modified": "2025-11-13 12:03:53.259083",
  "modified_by": "Administrator",
  "module": "Expense",
  "name": "Income",
  "owner": "Administrator",
  "parent_document_type": "",
  "report_function": "Sum",
- "show_percentage_stats": 1,
+ "show_percentage_stats": 0,
  "stats_time_interval": "Daily",
  "type": "Document Type"
 }
